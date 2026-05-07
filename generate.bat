@@ -186,6 +186,7 @@ if %fullbright% EQU 1 (
     del "materials\soho\metalgrate001.vtf" /Q
     del "materials\swamp\props\fishingnet001.vtf" /Q
     del "materials\swamp\props\fishingnet002.vtf" /Q
+    del "materials\egypt\barbed_wire_fence_01.vtf" /Q
     :: -------------------------------
 
 :DONE
