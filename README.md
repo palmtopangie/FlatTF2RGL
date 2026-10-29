@@ -36,6 +36,11 @@ When you have fully generated the options you wanted:
 1. Run pack_vpk.bat
 2. Move/delete FlatTF2RGL folder out of custom (otherwise there is no load time benefit)
 
+## ⚠️ WARNING ⚠️
+Do NOT disable texture mipmapping (eg: ``mat_mipmaptextures 0``), or else your textures will look seriously messed up. If you have this issue, add ``mat_mipmaptextures 1`` to your autoexec.cfg.
+
+<img width="1280" height="720" alt="image" src="https://github.com/user-attachments/assets/30c832f7-127c-4568-8cb1-459c3cb31dc0" />
+
 ## Note
 
 I've done my absolute best to ensure that there are absolutely zero rule breaking textures still included, but if you do find any, please open an issue or a pull request.
